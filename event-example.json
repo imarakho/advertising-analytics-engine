@@ -1,0 +1,8 @@
+{
+    "event_id": "0f7a4d9a-2f2e-4c6c-9d1b-7b0c9c9b3c31",
+    "type": "impression",
+    "ad_id": "ad_123",
+    "campaign_id": "cmp_9",
+    "user_id": "u_42",
+    "ts": "2026-02-01T12:34:56.789Z"
+}
