@@ -168,7 +168,7 @@ const main = async () => {
         await commitOffsetsIfNecessary();
         await heartbeat();
       } catch (err) {
-        logger.error({ err, topic: batch.topic, partition: batch.partition }, "batch_failed_no_offset_commit");
+        logger.error({ err, topic: batch.topic, partition: batch.partition }, "Batch failed no kafka offset commit");
         await heartbeat();
       }
     }
