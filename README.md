@@ -26,7 +26,7 @@ Example payload:
 ```
 
 Fields:
-- `event_id` (string) – unique id (UUID recommended)
+- `event_id` (string) – unique id
 - `type` – `"impression"` | `"click"`
 - `ad_id` (string)
 - optional: `campaign_id`, `user_id`
